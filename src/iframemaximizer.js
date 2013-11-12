@@ -69,6 +69,6 @@ var IframeMaximizer = (function(window, document) {
 	// Plugin started:
 	return {
 		maximize: maximizeIframes
-	}
+	};
 
 })(window, document);

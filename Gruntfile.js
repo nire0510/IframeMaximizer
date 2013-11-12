@@ -7,6 +7,8 @@ module.exports = function (grunt) {
 	// load all grunt tasks
 	require('load-grunt-tasks')(grunt);
 
+	require('grunt-readme')(grunt);
+
 	grunt.initConfig({
 		pkg: grunt.file.readJSON('package.json'),
 		clean: {
