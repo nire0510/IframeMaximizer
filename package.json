@@ -1,0 +1,33 @@
+{
+	"name": "IframeMaximizer",
+	"version": "0.0.1",
+	"description": "Finds all iframes on document which have \"maximizer\" class  and maximizes them based on their content",
+	"main": "iframemaximizer.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"directories": {
+		"source": "src",
+		"demo": "demo",
+		"release": "dist"
+	},
+	"keywords": [
+		"iframe",
+		"maximize",
+		"plugin",
+		"autoheight",
+		"height"
+	],
+	"author": "Nir Elbaz",
+	"license": "None",
+	"devDependencies": {
+		"grunt": "~0.4.1",
+		"grunt-contrib-uglify": "~0.2.0",
+		"grunt-contrib-jshint": "~0.6.3",
+		"grunt-contrib-clean": "~0.5.0",
+		"grunt-contrib-copy": "~0.4.1",
+		"time-grunt": "~0.1.1",
+		"load-grunt-tasks": "~0.1.0",
+		"jshint-stylish": "~0.1.3"
+	}
+}
